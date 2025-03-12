@@ -45,7 +45,7 @@ namespace DungeonExplorer
                 if (move.ToLower() == "y")
                 {
                     Console.WriteLine("You pick up the potion.");
-                    Program.currentPlayer.potions += 1; //adding a potion to the users inventory
+                    Program.currentPlayer.potions += 2; //adding a potion to the users inventory
                     Console.WriteLine("You now have " + Program.currentPlayer.potions + " potions."); //message to tell the user they picked to potion up
                 }
                 else if (move.ToLower() == "n")
