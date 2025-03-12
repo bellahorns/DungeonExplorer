@@ -11,7 +11,7 @@ namespace DungeonExplorer
 
             //asking the user for their name
             Console.WriteLine("Name:");
-            Program.currentPlayer.name = Console.ReadLine();
+            Program.currentPlayer.Name = Console.ReadLine();
             Console.Clear();
             Console.WriteLine("You have woken up in the first room of the dungeon.");
             //if the user has not submitted a name they are toild their charecter cannot remember their name

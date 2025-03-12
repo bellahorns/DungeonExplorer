@@ -9,9 +9,15 @@ namespace DungeonExplorer
 {
     internal class Player
     {
+        
         //Player stats
         public string name;
-        public int coins = 0;
+        public string Name
+        {
+            get {  return name; }
+            set { name = value; }
+        }
+
         public int health = 10;
         public int roomCount = 1;
 
@@ -20,6 +26,8 @@ namespace DungeonExplorer
         public int potions = 3;
         public string weapon = "Rusty Sword";
         public int weaponValue = 1;
+
+
 
         //Pick up item function where the item type name is handed into the function
         public static void pickUpItem(string itemType)
